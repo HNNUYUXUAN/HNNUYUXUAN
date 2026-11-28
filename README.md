@@ -1,43 +1,46 @@
-# 缪雨轩 · Yuxuan Miao
+# 缪雨轩 · Yuxuan Miao（早期研发归档 · Archive Account）
 
-> 我是缪雨轩，`HNNUYUXUAN` 和 [`yuxuan6426`](https://github.com/yuxuan6426) 都是我的 GitHub 账号。自 2026 年 11 月 21 日起，我只在 [`yuxuan6426`](https://github.com/yuxuan6426) 创建新仓库。
+> **主账号指引**：`HNNUYUXUAN` 与 [`@yuxuan6426`](https://github.com/yuxuan6426) 均为缪雨轩本人的 GitHub 账号。自 **2026 年 11 月 21 日**起，所有新建仓库、最新代码发布与持续维护统一集中于主账号 **[github.com/yuxuan6426](https://github.com/yuxuan6426)**；本账号保留早期项目演化轨迹、历史提交记录及既有 GitHub Pages 路由兼容。
 >
-> I’m Yuxuan Miao, and both `HNNUYUXUAN` and [`yuxuan6426`](https://github.com/yuxuan6426) are my GitHub accounts. Starting November 21, 2026, I create all new repositories under [`yuxuan6426`](https://github.com/yuxuan6426).
+> **Primary Account Notice**: Both `HNNUYUXUAN` and [`@yuxuan6426`](https://github.com/yuxuan6426) belong to Yuxuan Miao. Since **November 21, 2026**, all new repositories and active maintenance live exclusively at **[github.com/yuxuan6426](https://github.com/yuxuan6426)**, while this account preserves earlier project history and legacy GitHub Pages routes.
 
-[简体中文](#简体中文) · [English](#english)
+[前往主账号 @yuxuan6426 ↗](https://github.com/yuxuan6426) · [个人网站 yuxuan.wiki](https://www.yuxuan.wiki/) · [交付档案与案例](https://www.yuxuan.wiki/introduce) · [教学与作品集 hnnu.team](https://www.hnnu.team/) · [ORCID](https://orcid.org/0009-0007-3369-452X)
 
-## 简体中文
+---
 
-我在淮南师范学院攻读物理学（师范）本科，关注工程交付、科学计算和可复现验证。我为科研和教学场景开发可运行的仿真工具与 AI 工作流。
+## 关于我 · Overview
 
-[个人网站](https://www.yuxuan.wiki/) · [交付案例总览](https://www.yuxuan.wiki/introduce) · [ORCID](https://orcid.org/0009-0007-3369-452X) · [Gitee](https://gitee.com/hnnuxuan)
+淮南师范学院物理学（师范）专业本科在读（2028 届）。关注 **AI Agent 工程落地**、**科学计算验证** 与 **物理可视化教学**，致力于把复杂的物理模型与真实的业务需求打磨成可交互、可复现、经得起核验的软件系统。
 
-### 工程案例
+## 核心项目最新入口（统一维护于 `@yuxuan6426`）
 
-- **Ansys PyAEDT-MCP** · 为 AEDT Student 版补充启动、连接及服务启动时自动连接支持，提供使用文档和回归测试。改动于 2026 年 11 月 20 日随上游 PR #176 合入。[原始贡献](https://github.com/ansys/pyaedt-mcp/pull/155) · [上游合并](https://github.com/ansys/pyaedt-mcp/pull/176)
-- **热鉴 · Thermal PDE Audit** · 用解析解和有限差分基线核验一维热传导的量子线路仿真。工作流支持 CPU 和壁仞 GPU，并输出可复核的参数、误差和实验报告。[项目仓库](https://github.com/yuxuan6426/thermal-pde-audit)
-- **EdgeInfer-Optimizer** · 主导端侧混合精度推理系统的架构与实现，交付可运行原型并完成性能实测。项目获安徽省级一等奖。[公开交付案例](https://www.yuxuan.wiki/introduce#case-edgeinfer)
-- **ClueTide** · 将发布审批绑定到交付物的指定版本和清单，支持独立核验发布回执和文件完整性。[v0.2.0 发布记录](https://github.com/yuxuan6426/cluetide-botchain/releases/tag/v0.2.0)
+如果你从历史链接、学术文献或提交记录访问到这里，可通过下表直达各项目的最新维护仓库与线上演示：
 
-### 论文
+| 方向 | 代表成果摘要 | 最新仓库与在线演示 |
+| :--- | :--- | :--- |
+| **工业软件开源贡献** | **Ansys PyAEDT-MCP**：打通 AEDT Student 版识别、已有会话连接与服务启动自动连接，补齐测试与文档，已随 PR #176 合入官方 `main`。 | [原始 PR #155](https://github.com/ansys/pyaedt-mcp/pull/155) · [上游合入 #176](https://github.com/ansys/pyaedt-mcp/pull/176) · [最新仓库](https://github.com/yuxuan6426/pyaedt-mcp) |
+| **展会获客智能体** | **ClipSignal**：将外贸车间素材自动编排为 22 秒双语可编辑剪映草稿，并从视频号公开互动挖掘带原始出处的买家线索。 | [项目主页](https://yuxuan6426.github.io/clipsignal/) · [最新仓库](https://github.com/yuxuan6426/clipsignal) |
+| **科学计算与量子核验** | **热鉴（Thermal PDE Audit）**：并行对比解析解、有限差分与 CPU/壁仞 GPU 量子线路热传导仿真（获书生国智科探赛双奖）；配套高频 **Litz 线**校准流。 | [书生科学平台](https://discovery.intern-ai.org.cn/scp/skill/456) · [热鉴仓库](https://github.com/yuxuan6426/thermal-pde-audit) · [Litz 线仓库](https://github.com/yuxuan6426/litz-wire-research) |
+| **端侧推理与链上核验** | **EdgeInfer-Optimizer**（端侧混合精度推理，安徽揭榜挂帅省一等奖）与 **ClueTide Botchain**（BOT Chain 主网指定版本审批与回执独立核验）。 | [EdgeInfer 案例](https://www.yuxuan.wiki/introduce#case-edgeinfer) · [ClueTide 应用](https://cluetide.vercel.app/) · [ClueTide 仓库](https://github.com/yuxuan6426/cluetide-botchain) |
+| **物理教学与虚拟仿真** | **三维电磁粒子实验室**、**杨氏双缝干涉仿真**、**普通物理实验 45 项数字档案** 及 **Drill** 146 题物理刷题矩阵。 | [电磁实验室](https://virtuallab.yuxuan.wiki/) · [杨氏双缝](https://yslit.yuxuan.wiki/) · [普物实验库](https://github.com/yuxuan6426/general-physics-lab) · [PhysDrill](https://physdrill.yuxuan.wiki/) |
+| **文化展陈与开放调研** | **寿州窑文物数字展台**（78 件文物离线友好交互展陈）与 **安徽农户持续种粮调研**（两千余户跨年度开放数据与可复算 Notebook）。 | [寿州窑展台](https://shouzhou-kiln-interactive.yuxuan.wiki/) · [寿州窑仓库](https://github.com/yuxuan6426/shouzhou-kiln-interactive) · [种粮调研报告](https://yuxuan6426.github.io/anhui-rural-survey/report/) · [调研仓库](https://github.com/yuxuan6426/anhui-rural-survey) |
 
-- **第一作者** · [基于LLM的大学物理可视化仿真平台开发](http://wltb.ijournal.cn/ch/reader/view_abstract.aspx?file_no=20252039&flag=1)。《物理通报》，45(8)，31–41（2026）。[杨氏双缝仿真与复现材料](https://github.com/yuxuan6426/phy-sim-llm)
-- **第二作者** · [Critical Behavior in Ga-doped van der Waals Magnet CrI₃](https://link.springer.com/article/10.1007/s13538-026-02150-3)。*Brazilian Journal of Physics*，56，236（2026）。参与数据解释相关讨论及稿件审阅。
+## 期刊论文 · Publications
 
-## English
+- **第一作者** · [基于LLM的大学物理可视化仿真平台开发](http://wltb.ijournal.cn/ch/reader/view_abstract.aspx?file_no=20252039&flag=1)．缪雨轩，张颖，邸文奇，丁婉梦，杨程祥．《物理通报》，2026，45(8)：31–41．[复现仓库](https://github.com/yuxuan6426/phy-sim-llm)
+- **第二作者** · [Critical Behavior in Ga-doped van der Waals Magnet CrI₃](https://link.springer.com/article/10.1007/s13538-026-02150-3). Ying Zhang, **Yuxuan Miao**, Wenqi Gu, Ke Zhang & Ping Liu. *Brazilian Journal of Physics* **56**, 236 (2026).
 
-I’m a physics education undergraduate at Huainan Normal University. I build simulation tools and AI workflows for research and teaching, with a focus on engineering delivery, scientific computing, and reproducible verification.
+<details>
+<summary><strong>🌐 English Summary & Active Repository Index</strong></summary>
 
-[Personal website](https://www.yuxuan.wiki/) · [Project portfolio](https://www.yuxuan.wiki/introduce) · [ORCID](https://orcid.org/0009-0007-3369-452X) · [Gitee](https://gitee.com/hnnuxuan)
+I am an undergraduate in Physics Education at Huainan Normal University (Class of 2028), building auditable AI workflows, scientific computing verification pipelines, and interactive physics simulations.
 
-### Engineering projects
+For all current repositories, latest releases, and issue tracking, please visit **[github.com/yuxuan6426](https://github.com/yuxuan6426)** or **[yuxuan.wiki](https://www.yuxuan.wiki/)**:
 
-- **Ansys PyAEDT-MCP** · Contributed AEDT Student Edition launch, connection, and startup auto-connect support, with documentation and regression tests. The change was merged upstream in PR #176 on November 20, 2026. [Original contribution](https://github.com/ansys/pyaedt-mcp/pull/155) · [Upstream merge](https://github.com/ansys/pyaedt-mcp/pull/176)
-- **Thermal PDE Audit** · Checks quantum circuit simulations of one-dimensional heat conduction against analytical and finite-difference baselines. The workflow runs on CPUs and Biren GPUs and records parameters, errors, and reports for review. [Repository](https://github.com/yuxuan6426/thermal-pde-audit)
-- **EdgeInfer-Optimizer** · Led the architecture and implementation of a mixed-precision edge inference system, delivered a working prototype, and benchmarked its performance. The project won first prize at the Anhui provincial level. [Case study](https://www.yuxuan.wiki/introduce#case-edgeinfer)
-- **ClueTide** · Binds release approval to a specific deliverable version and manifest, and supports independent verification of release receipts and file integrity. [v0.2.0 release](https://github.com/yuxuan6426/cluetide-botchain/releases/tag/v0.2.0)
+- **Ansys PyAEDT-MCP** (Upstream contribution merged in [PR #176](https://github.com/ansys/pyaedt-mcp/pull/176); original [PR #155](https://github.com/ansys/pyaedt-mcp/pull/155)) — AEDT Student Edition launch, session connection, and startup auto-connect support.
+- **ClipSignal** ([Website](https://yuxuan6426.github.io/clipsignal/) · [Repo](https://github.com/yuxuan6426/clipsignal)) — Editable bilingual Jianying Pro draft generation and source-linked trade buyer discovery.
+- **Thermal PDE Audit** ([Platform](https://discovery.intern-ai.org.cn/scp/skill/456) · [Repo](https://github.com/yuxuan6426/thermal-pde-audit)) — 1D heat-conduction quantum circuit verification on CPUs and Biren GPUs against analytical and finite-difference baselines.
+- **EdgeInfer-Optimizer** ([Case Study](https://www.yuxuan.wiki/introduce#case-edgeinfer)) & **ClueTide Botchain** ([Live App](https://cluetide.vercel.app/) · [Repo](https://github.com/yuxuan6426/cluetide-botchain)) — Mixed-precision edge inference benchmarking and on-chain verifiable release attestation.
+- **Physics Labs & Open Science** — [3D EM Particle Lab](https://virtuallab.yuxuan.wiki/), [Young's Double-Slit Lab](https://yslit.yuxuan.wiki/) ([Repo](https://github.com/yuxuan6426/phy-sim-llm)), [General Physics Lab (45 Experiments)](https://github.com/yuxuan6426/general-physics-lab), [PhysDrill](https://physdrill.yuxuan.wiki/), [Shouzhou Kiln Digital Gallery](https://shouzhou-kiln-interactive.yuxuan.wiki/), and [Anhui Rural Grain-Farming Survey](https://github.com/yuxuan6426/anhui-rural-survey).
 
-### Publications
-
-- **First author** · [Development of an LLM-Based Visualization and Simulation Platform for University Physics](http://wltb.ijournal.cn/ch/reader/view_abstract.aspx?file_no=20252039&flag=1) (title translated from Chinese). *Physics Bulletin*, 45(8), 31–41 (2026). [Young’s double-slit simulation and reproduction materials](https://github.com/yuxuan6426/phy-sim-llm)
-- **Second author** · [Critical Behavior in Ga-doped van der Waals Magnet CrI₃](https://link.springer.com/article/10.1007/s13538-026-02150-3). *Brazilian Journal of Physics*, 56, 236 (2026). Contributed to discussions on data interpretation and reviewed the manuscript.
+</details>
